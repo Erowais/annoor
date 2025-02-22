@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Noor Public School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>An Noor Public School</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Welcome to An Noor Public School</h2>
+            <p>Your gateway to quality education and holistic development for Nursery, LKG, and UKG.</p>
+            <button onclick="scrollToSection('contact')">Contact Us</button>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>An Noor Public School is dedicated to providing quality education and fostering a love for learning. Our experienced faculty and comprehensive curriculum ensure that every child reaches their full potential.</p>
+        </section>
+
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <ul>
+                <li>Nursery: A fun and engaging introduction to learning.</li>
+                <li>LKG: Building foundational skills through play and exploration.</li>
+                <li>UKG: Preparing children for primary education with structured learning.</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="a.jpg" alt="School Image 1">
+                <img src="c.jpg" alt="School Image 2">
+                <img src="d.jpg" alt="School Image 3">
+                <img src="e.jpg" alt="School Image 4">
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"An Noor Public School has transformed my child's early education. The teachers are dedicated and caring!"</p>
+                <footer>- Parent of a Nursery Student</footer>
+            </blockquote>
+            <blockquote>
+                <p>"The activities offered here are fantastic! My child loves being part of the school community."</p>
+                <footer>- Parent of an LKG Student</footer>
+            </blockquote>
+        </section>
+
+        <section id="location">
+            <h2>Location</h2>
+            <p>We are located at:</p>
+            <address>
+                Jamila Complex, Bheelgaon Road<br>
+                Nagpur, Maharasthra, 440026
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.1410134428484!2d79.13572467393904!3d21.18655648234268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c7000c89823b%3A0x6248e2997aada5f5!2sJamila%20complex!5e0!3m2!1sen!2sin!4v1740239859335!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form id="contactForm" action="https://formspree.io/f/xzzdwkgv" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 An Noor Public School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
